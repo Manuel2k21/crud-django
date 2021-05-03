@@ -1,0 +1,33 @@
+{% load static %}
+<head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: darkcyan;
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    label  {
+        display: block;
+    }
+    span.helptext {
+        display: none;
+    }
+    input{
+        width: 100%;
+    }
+    body.h1{
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+
+    <h1 >Django Blog</h1>
+</body>
+
+{% block content %}
+{% endblock %}
